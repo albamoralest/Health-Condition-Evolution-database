@@ -8,12 +8,11 @@
 
 #### HECON Ontology
 
-    [HECON Ontology repository](https://github.com/albamoralest/HECON-Ontology)
+ [HECON Ontology repository](https://github.com/albamoralest/HECON-Ontology)
     
+ ##### Knowledge Graph
     
-    ##### Knowledge Graph
-    
-    [Knowledge Graph construction](https://github.com/albamoralest/HECON-Ontology/tree/main/Knowledge%20Graph)
+  [Knowledge Graph construction](https://github.com/albamoralest/HECON-Ontology/tree/main/Knowledge%20Graph)
         data -> RDF data in TTL format
         queries -> SPARQL Anything queries for building RDF data
         rawData -> database of Health Evolution Statements in CSV format
