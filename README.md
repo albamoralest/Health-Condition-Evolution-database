@@ -15,18 +15,14 @@
     queries -> SPARQL Anything queries for building RDF data
     rawData -> database of Health Evolution Statements in CSV format
 
-#### Information on installation and setup
-
-
 #### Details of the data
 
-    Code:
-    
-    1. Corpus preparation: 
+
+1. Corpus preparation: 
     |_ 01trainingdataset
     The training dataset and preparation process
     
-    2. Knowledge components extraction: 
+2. Knowledge components extraction: 
     |_ 02MLAlgorithms/
     Jupyter notebooks implementing (training and test process)the different algorithms used to classify sentences according to the HES.
     It also contains the models used to infer the HES
@@ -34,7 +30,7 @@
     |_ 03predictions/
     Jupyter notebooks with the application of the machine learning approach and predictions on the entire corpus
     
-    3. Knowledge completion: 
+3. Knowledge completion: 
     Jupyter notebooks with the implementation of the propagation rules
     For the extraction of SNOMED CT concepts we work with Snowstorm. 
     Snowstorm is a SNOMED CT terminology server built on top of Elasticsearch, with a focus on performance and enterprise scalability.
@@ -43,6 +39,6 @@
     [Snowstrom reporsity by SNOMED CT ](https://github.com/IHTSDO/snowstorm)
     
     
-    4. Human-in-the-loop
+4. Human-in-the-loop
     [Tool repository](https://github.com/albamoralest/evaluation_KA)
     
